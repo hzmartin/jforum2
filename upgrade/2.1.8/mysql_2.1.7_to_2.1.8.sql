@@ -29,4 +29,4 @@ CREATE TABLE jforum_moderation_log (
 	post_user_id INT DEFAULT 0,
 	KEY(user_id),
 	KEY(post_user_id)
-) ENGINE=InnoDB;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
